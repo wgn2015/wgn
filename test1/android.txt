@@ -1,0 +1,9 @@
+Activity：
+谷歌建议：
+*不能在onPause()中执行太耗时的代码，因为新的Activity是在上个activity调用完onPause()之后才启动的。
+1activity执行过程：onCreate()--onStart()--onResume()
+2activty 启动模式：standard,singleTop,singleTask.可以在mainfest清单文件中设置每一个activity 的启动模式（属性：launchMode）
+3activity 屏幕切换或者转屏幕的时候，设置不重新启动activity的属性是 configChange属性，是在清单文件中设置。
+4
+
+凡人有希望在心，未见于行为为志。志不可满
