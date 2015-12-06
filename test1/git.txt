@@ -1,0 +1,7 @@
+本地新建文件夹，进入文件夹，git init,这样子就在本地创建一个gity仓库。
+本地创建仓库：git init 
+添加文件：git add xx.xx
+提交文件：git commit -m "注释"
+更新到远程库：git push -u origin master
+
+*初始化之后提交代码到远程库： git remote add origin git://www.github.com/wgn2015/wgn.git
